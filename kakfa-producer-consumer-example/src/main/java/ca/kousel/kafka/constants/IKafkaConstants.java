@@ -3,9 +3,13 @@ package ca.kousel.kafka.constants;
 public interface IKafkaConstants {
 	public static String KAFKA_BROKERS = "localhost:9091,localhost:9092";
 	
-	public static Integer MESSAGE_COUNT=10;
+	public static String ZOOKEEPER_CONFIG = "localhost:2181";
+	
+	public static Integer MESSAGE_COUNT=100;
 	
 	public static String CLIENT_ID="client1";
+	
+	public static String STREAM_ID="stream1";
 	
 	public static String TOPIC_NAME="3partition_2replication";
 	
